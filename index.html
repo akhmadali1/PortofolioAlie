@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio Alie</title>
+    <link rel="stylesheet" href="./CSS/styles.css" />
+
+    
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Lato&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="hero-container">
+      <div class="circle-container">
+        <div class="circle">
+          <button class="btn">
+            <i>Back</i>
+          </button>
+          <button class="btn">
+            <i>Flip Me</i>
+          </button>
+        </div>
+      </div>
+
+      <!-- For tablet and mobile nav -->
+      <input type="checkbox" id="active" />
+      <label for="active" class="menu-btn">
+        <i class="fas fa-bars"></i>
+      </label>
+
+      <div class="menu">
+        <ul class="list nav__list">
+          <li class="list__item">
+            <a href="https://linktr.ee/akhmadernawan" class="list__link" target="_blank"
+              >Contact Me</a
+            >
+          </li>
+        </ul>
+      </div>
+
+      <nav>
+        <ul class="list nav__list">
+          </li>
+          <li class="list__item">
+            <a href="https://linktr.ee/akhmadernawan" class="list__link" target="_blank"
+              >Contact Me</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <div class="banner">
+        <div class="banner-text">
+            <div class="text-wrapper">
+                <div class="box b1">Hi</div>
+                <div class="box b2">Hola</div>
+                <div class="box b3">أهلاً</div>
+                <div class="box b4">こんにちは</div>
+                <div class="box b5">Hallo</div>
+            </div>
+        </div>
+        <div class="hero__image">
+          <img src="./Image/199292-removebg-preview.png" alt="Hero image" />
+        </div>
+      <main class="grid">
+        
+        <div class="hero__content">
+          <h1 class="hero__title">I'm Akhmad Ali Ernawan</h1>
+          <p class="hero__subtitle">Software Engineer</p>
+          
+          <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-2">
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links"onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Programming Language</span><br><br>C, Java, HTML, CSS, Javascript, Laravel and PHP.</li>
+                                <li><span>Computer Skills</span><br><br>Premiere Pro, After Effects, Canva, Figma and Microsoft Office.</li>
+                                <li><span>Soft Skills</span><br><br>Adaptive, Team Work, Time Management, and Problem Solving.</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>Himpunan Mahasiswa Teknik Informatika</span><br>I'm a member of HIMTI Care division. Our division focuses on hosting internal events to create stronger bond for HIMTI members.</li>
+                                <li><span>HACKATHON SoCS Binus University</span><br>My team come out as one of the finalist in this competition. My job is to create the database and promotional video for our application.</li>
+                                <li><span>Pre-Training Assitant Lab</span><br>I joined pre-training asistant lab Binus University</li>
+                                <li><span>FUTURISTIK</span><br>FUTURISTIK is an event hosted on my highschool. I was part of the documentation team for that event.</li>
+                                <li><span>OSN Bidang Komputer</span><br>I was chosen to be the representative for city level school olympiad computer division in highschool.</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2020-Present</span><br><br>Bina Nusantara University.</li>
+                                <li><span>2017-2020</span><br><br>SMA Negeri 8 Kota Tangerang.</li>
+                                <li><span>2015-2017</span><br><br>SMP Negeri 9 Kota Tangerang.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+      </main>
+    </div>
+    <a href="" class="hero__btn"
+      >Download CV</a
+    >
+  </div>
+    </section>
+    
+
+    <footer class="footer">
+      <ul class="list footer__list">
+        <li class="list__item">
+          <a
+            href="prototype.html"
+            class="list__link"
+            >Project</a
+          >
+        </li>
+        <li class="list__item">
+          <a
+            href="mailto:akhmad.ernawan@binus.ac.id"
+            class="list__link"
+            >Email Me</a
+          >
+        </li>
+      </ul>
+    </footer>
+    
+    <script src="./JS/script.js"></script>
+  </body>
+</html>
